@@ -8,7 +8,7 @@ if (navigator.serviceWorker) {
   })
 }
 
-"use strict"
+;("use strict")
 
 function calculate() {
   let counter = 0
@@ -21,7 +21,7 @@ function calculate() {
     answer = first + answer
     counter++
   }
-  
+
   document.getElementById("answers").innerHTML =
     first + " x " + second + " = " + answer
 }
